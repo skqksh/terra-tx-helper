@@ -1,0 +1,28 @@
+{
+  "name": "add-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "ts-node src/1.uploadCode.ts",
+    "create": "ts-node src/2.createContract.ts",
+    "createToken": "ts-node src/createToken.ts",
+    "providePool": "ts-node src/providePool.ts",
+    "createPair": "ts-node src/createPair.ts",
+    "sendToken": "ts-node src/sendToken.ts",
+    "start": "ts-node src/terra.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@terra-money/terra.js": "^2.0.4",
+    "@types/lodash": "^4.14.168",
+    "bignumber.js": "^8.0.2",
+    "caver-js": "^1.4.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.4"
+  }
+}
